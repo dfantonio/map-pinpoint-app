@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
+import { Button } from "native-base";
 import styles from "./HomeStyle";
 
 class Home extends Component {
@@ -7,6 +8,9 @@ class Home extends Component {
     return (
       <View>
         <Text style={styles.header}>asdasdasdsadsad</Text>
+        <Button style={styles.button}>
+          <Text>Click Me!</Text>
+        </Button>
       </View>
     );
   }
