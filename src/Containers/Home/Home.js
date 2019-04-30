@@ -7,9 +7,15 @@ class Home extends Component {
   render() {
     return (
       <View>
-        <Text style={styles.header}>asdasdasdsadsad</Text>
-        <Button style={styles.button}>
-          <Text>Click Me!</Text>
+        <Text style={styles.header}>Imagine um título legal aqui</Text>
+        <Button
+          // rounded
+          style={styles.button}
+          onPress={() => {
+            this.props.navigation.navigate("Map");
+          }}
+        >
+          <Text style={{ color: "white" }}>Click Me!</Text>
         </Button>
       </View>
     );
