@@ -5,9 +5,11 @@ import React, { Component } from "react";
 
 import Home from "../../Containers/Home/Home";
 import Map from "../../Containers/Map/Map";
+import SearchBox from "../../Containers/Home/AutoComplete";
 
 const AppNavigator = createStackNavigator(
   {
+    SearchBox: { screen: SearchBox },
     Home: { screen: Home },
     Map: { screen: Map }
   },

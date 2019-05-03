@@ -1,3 +1,4 @@
+import Autocomplete from "react-native-autocomplete-input";
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 import { Button } from "native-base";
@@ -17,6 +18,9 @@ class Home extends Component {
         >
           <Text style={{ color: "white" }}>Click Me!</Text>
         </Button>
+        <View style={{ height: 150, marginTop: 50 }}>
+          {/* <Autocomplete /> */}
+        </View>
       </View>
     );
   }

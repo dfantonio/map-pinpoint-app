@@ -20,7 +20,7 @@ const LONGITUDE_DELTA = 0.0121;
 const HEIGHT = Dimensions.get("window").height - StatusBar.currentHeight;
 const WIDTH = Dimensions.get("window").width;
 
-class Home extends Component {
+class Maps extends Component {
   state = {
     region: {
       latitude: -29.685446,
@@ -118,4 +118,4 @@ class Home extends Component {
     );
   }
 }
-export default Home;
+export default Maps;
