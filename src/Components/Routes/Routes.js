@@ -9,7 +9,7 @@ import SearchBox from "../../Containers/Home/AutoComplete";
 
 const AppNavigator = createStackNavigator(
   {
-    SearchBox: { screen: SearchBox },
+    // SearchBox: { screen: SearchBox },
     Home: { screen: Home },
     Map: { screen: Map }
   },

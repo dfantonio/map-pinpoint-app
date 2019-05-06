@@ -1,0 +1,80 @@
+﻿codigo;cidSigla;Cidade;Endereco;coordinates/latitude;coordinates/longitude
+A01;NHO;Novo Hamburgo;R. Onze De Julho, 145;-29,6804159;-51,1331846
+A02;NHO;Novo Hamburgo;R. Marcilio Dias, 1447;-29,6878564;-51,1275564
+A03;NHO;Novo Hamburgo;R. Marcilio Dias, 1077;-29,6882088;-51,1315224
+A04;NHO;Novo Hamburgo;R. Calçadão Oswaldo Cruz, 300;-29,6855141;-51,1278426
+A05;NHO;Novo Hamburgo;R. Do Ipê, 5;-29,7093952;-51,1343608
+A07;NHO;Novo Hamburgo;R. Joaquin Pedro Soares, 394;-29,6834785;-51,1268162
+A08;NHO;Novo Hamburgo;R. Lucas De Oliveira, 40;-29,6823757;-51,1274365
+A09;NHO;Novo Hamburgo;R. Joaquim Nabuco, 435;-29,6843747;-51,1331124
+A10;NHO;Novo Hamburgo;R. Domingos De Almeida, 212;-29,6805306;-51,1269832
+A11;NHO;Novo Hamburgo;R. Bento Gonçalves, 1177;-29,6958144;-51,1267813
+A12;NHO;Novo Hamburgo;R. Bento Gonçalves, 1277;-29,6951843;-51,126745
+A13;NHO;Novo Hamburgo;R. Bento Gonçalves, 641;-29,700809;-51,1270033
+A15;NHO;Novo Hamburgo;R. Santa Maria, 99;-29,6880479;-51,1333376
+A16;NHO;Novo Hamburgo;R. Pedro Adans Filho, 2696;-29,708257;-51,131323
+A17;NHO;Novo Hamburgo;R. Padre Nobrega, 20;-29,674141;-51,116104
+A18;NHO;Novo Hamburgo;R. Corumba, 266;-29,718961;-51,138868
+A19;NHO;Novo Hamburgo;R. Gen. Daltro Filho, 2162;-29,6759661;-51,0981238
+A20;NHO;Novo Hamburgo;R. Santo Angelo, 433;-29,6727857;-51,1262753
+A21;NHO;Novo Hamburgo;R. Curitiba, 678;-29,6920772;-51,1195708
+A22;NHO;Novo Hamburgo;R. União Sul Africana, 601;-29,6760438;-51,1490791
+A23;NHO;Novo Hamburgo;R. Visconde De Cairu, 300;-29,7211419;-51,1211297
+A24;NHO;Novo Hamburgo;R. Caracas, 634;-29,729089;-51,1339459
+A25;NHO;Novo Hamburgo;R. Irma Amalia, 259;-29,685233;-51,103283
+A26;NHO;Novo Hamburgo;R. Napoles, 578;-29,6859021;-51,0940387
+A27;NHO;Novo Hamburgo;R. Valkiria Splinder, 155;-29,6940759;-51,1013535
+A28;NHO;Novo Hamburgo;R Amalie Thon, 70;-29,697294;-51,087672
+A29;NHO;Novo Hamburgo;R. Maria Do Carmo Miranda Da Cunha, 701;-29,6999129;-51,0937755
+A30;NHO;Novo Hamburgo;R. Plutão, 177;-29,674225;-51,162699
+A31;NHO;Novo Hamburgo;R. Pedro Quaresma Da Silva, 1370;-29,6813086;-51,1712924
+A32;NHO;Novo Hamburgo;R. Araçatuba,  452;-29,668987;-51,0967133
+A33;NHO;Novo Hamburgo;R. Jacinto, 337;-29,6646758;-51,1063436
+A35;NHO;Novo Hamburgo;R. Guaiba, 2108;-29,6534;-51,1028
+A36;NHO;Novo Hamburgo;R. Guarujá, 645;-29,6980416;-51,1388889
+A37;NHO;Novo Hamburgo;R. Oswaldo Cruz, 486;-29,687765;-51,147897
+A38;NHO;Novo Hamburgo;R. 11 De Julho, 1250;-29,6710358;-51,137101
+V03;NHO;Novo Hamburgo;R. Pres. Lucena, 3450;-29,6775657;-51,1577479
+V02;NHO;Novo Hamburgo;R. Aldo Locatelli, 193;-29,6859503;-51,1027844
+V01;NHO;Novo Hamburgo;R. João Pedro Schimitt, 130;-29,7089367;-51,1244554
+I01;NHO;Novo Hamburgo;R. Mauricio Cardoso, 1362;-29,6826379;-51,1202387
+I01;SLE;São Leopoldo;R. Marques Do Herval, 322;-29,7620313;-51,1457841
+A01;SLE;São Leopoldo;R. Primeiro De Marco Esquina Conceição;-29,7670806;-51,1466058
+A02;SLE;São Leopoldo;R. Bento Gonçalves, 633;-29,7655831;-51,1479885
+A03;SLE;São Leopoldo;R. Conceição, 711;-29,7674256;-51,1472511
+A04;SLE;São Leopoldo;R. João Correa, 26;-29,7697457;-51,1353567
+A05;SLE;São Leopoldo;R. Pres. Rosevelt, 1221;-29,7669205;-51,1526279
+A06;SLE;São Leopoldo;R. Teodomiro Porto Da Fonseca, 515;-29,7734923;-51,1479196
+A07;SLE;São Leopoldo;R. Pres. Rosevelt, 121;-29,7649174;-51,1414251
+A08;SLE;São Leopoldo;R. São Borja, 925;-29,776592;-51,128708
+A09;SLE;São Leopoldo;R. Presidente Lucena, 972;-29,731119;-51,154744
+A10;SLE;São Leopoldo;R. Av. Unisinos, 1550;-29,7914632;-51,1499797
+A11;SLE;São Leopoldo;R. Av. Feitoria, 1674;-29,7664389;-51,1198961
+A12;SLE;São Leopoldo;R. Av. Pres. Jhon Kennedy, 727;-29,7549941;-51,150283
+A13;SLE;São Leopoldo;R. Adelfo Pinto, 138;-29,7540263;-51,0988767
+A14;SLE;São Leopoldo;R. Av. Integração, 629;-29,7447195;-51,0963248
+A15;SLE;São Leopoldo;R. Av Albino Timm Nº 19 Quadra 14;-29,7665803;-51,0934967
+A16;SLE;São Leopoldo;R. Edgar Leopoldo Feldmann, 390;-29,7629268;-51,0932971
+A17;SLE;São Leopoldo;R. Dr. Hillebrand, 923;-29,7509689;-51,1474979
+A18;SLE;São Leopoldo;R. Av. Imperatriz Leopoldina, 3221;-29,759155;-51,1105071
+A19;SLE;São Leopoldo;R. Manoel Vargas, 99;-29,748435;-51,157639
+A20;SLE;São Leopoldo;R. Av. Tomaz Edison, 1499;-29,7332269;-51,154818
+A21;SLE;São Leopoldo;R. Arno Schuch, 338;-29,774961;-51,159377
+A22;SLE;São Leopoldo;R. Quinze De Novembro, 318;-29,7549941;-51,150283
+A23;SLE;São Leopoldo;R. Randolfo Guasque, 641;-29,7330943;-51,1615569
+A27;SLE;São Leopoldo;R. Av. Oitavo Bc, 560;-29,7779136;-51,1533604
+A01;CBM;Campo Bom;R. Av. Brasil,2044;-29,6785179;-51,067219
+A02;CBM;Campo Bom;R.Wolfram Metzler, 210;-29,6774932;-51,0826277
+A03;CBM;Campo Bom;R. Marcos Silvano, 50;-29,6923608;-51,0579058
+A04;CBM;Campo Bom;R. Padre Julio, 477;-29,6755914;-51,0544096
+A05;CBM;Campo Bom;R. Cirino Berghann, 431;-29,6851547;-51,043683
+A07;CBM;Campo Bom;R. Bom Jesus, 563;-29,6927003;-51,0747232
+V01;CBM;Campo Bom;R. São Leopoldo, 319;-29,6801754;-51,0605308
+V01;SPG;Sapiranga;R. Afonso Pena, 80;-29,6357084;-51,0059081
+A01;SPG;Sapiranga;R. Tiradentes, 221;-29,6386929;-51,0081059
+A02;SPG;Sapiranga;R. Santos Dumont, 242;-29,6344047;-50,996086
+A03;SPG;Sapiranga;R. Souza Lobo, 232;-29,6287411;-51,0099057
+A04;SPG;Sapiranga;R. Gen. Nascimento Vargas, 498;-29,6477109;-51,0037019
+A02;EVA;Estância Velha;R. Jose De Alencar, 702;-29,6515999;-51,1705811
+A03;EVA;Estância Velha;R. Portão, 1170;-29,6517698;-51,1840167
+A04;EVA;Estância Velha;R. Dom Pedro Ii, 18;-29,6644313;-51,1472463

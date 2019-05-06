@@ -1,5 +1,5 @@
-import { Container, Header, Content, Button, Icon, Left } from "native-base";
-import MapView, { Marker, ProviderPropType } from "react-native-maps";
+import { Icon } from "native-base";
+import MapView, { Marker } from "react-native-maps";
 import { pins } from "./../../Services/PinsLocation";
 import React, { Component } from "react";
 import styles from "./MapStyle";
@@ -60,7 +60,8 @@ class Maps extends Component {
   };
 
   renderMarkers = () => {
-    return pins[0].locais.map((produto, index) => {
+    return pins[0].novoHamburgo.map((produto, index) => {
+      // console.log(produto);
       return (
         <View key={index}>
           <Marker
@@ -81,11 +82,6 @@ class Maps extends Component {
           region={this.state.region}
         >
           {this.renderMarkers()}
-          <Marker
-            coordinate={pins[0].locais[0].coordinates}
-            title={"Titulo"}
-            description={"Descrição"}
-          />
         </MapView>
         <TouchableOpacity
           style={{

@@ -6,6 +6,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Autocomplete from "react-native-autocomplete-input";
 //import Autocomplete component
 import { pins } from "./../../Services/PinsLocation";
+import { Button } from "native-base";
 
 const API = "https://swapi.co/api";
 //Demo base API to get the data for the Autocomplete suggestion
@@ -617,8 +618,7 @@ class AutoCompleteScreen extends Component {
           //   data={films}
 
           //default value if you want to set something in input
-          //   defaultValue={query}
-
+          defaultValue={query}
           /*onchange of the text changing the state of the query which will trigger
           the findFilm method to show the suggestions*/
           onChangeText={text => this.setState({ query: text })}
@@ -628,11 +628,8 @@ class AutoCompleteScreen extends Component {
           renderItem={({ item, index }) => {
             return (
               //you can change the view you want to show in suggestion from here
-              <TouchableOpacity
-                onPress={() => this.setState({ query: item })}
-                key={index}
-              >
-                <Text style={styles.itemText} key={index}>
+              <TouchableOpacity onPress={() => this.setState({ query: item })}>
+                <Text style={styles.itemText}>
                   {/* TESTE {index} */}
                   {item}
                   {/* {title} ({release_date}) */}
