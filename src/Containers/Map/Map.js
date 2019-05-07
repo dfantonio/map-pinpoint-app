@@ -28,11 +28,12 @@ class Maps extends Component {
       latitudeDelta: LATITUDE_DELTA,
       longitudeDelta: LONGITUDE_DELTA
     },
-    coords: []
+    renderedPins: []
   };
 
   componentDidMount() {
-    this.getCurrentPosition();
+    // this.getCurrentPosition();
+    this.createMarkers();
   }
 
   /**
@@ -59,19 +60,29 @@ class Maps extends Component {
     );
   };
 
+  createMarkers = () => {
+    const cities = Object.keys(pins);
+    let temp = [];
+    let array = [];
+    for (let i = 0; i < cities.length; i++) {
+      temp = pins[cities[i]].map((produto, index) => {
+        return (
+          <View key={index}>
+            <Marker
+              coordinate={produto.coordinates}
+              title={produto.codigo}
+              // description={produto.description}
+            />
+          </View>
+        );
+      });
+      array.push(temp);
+    }
+    this.setState({ renderedPins: array });
+  };
+
   renderMarkers = () => {
-    return pins[0].novoHamburgo.map((produto, index) => {
-      // console.log(produto);
-      return (
-        <View key={index}>
-          <Marker
-            coordinate={produto.coordinates}
-            title={produto.title}
-            description={produto.description}
-          />
-        </View>
-      );
-    });
+    return this.state.renderedPins;
   };
 
   render() {
