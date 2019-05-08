@@ -1,6 +1,6 @@
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import NavigationService from "../../Services/NavigationService";
-import { fromRight } from "../../Layout/Effects/Effects";
+import { fromRight, fadeIn } from "../../Layout/Effects/Effects";
 import React, { Component } from "react";
 
 import Home from "../../Containers/Home/Home";
@@ -15,7 +15,7 @@ const AppNavigator = createStackNavigator(
   },
   {
     headerMode: "none",
-    transitionConfig: () => fromRight()
+    transitionConfig: () => fadeIn()
   }
 );
 
