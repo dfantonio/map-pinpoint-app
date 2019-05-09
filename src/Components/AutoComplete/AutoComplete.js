@@ -2,7 +2,6 @@ const DEVICE_HEIGHT = Dimensions.get("window").height;
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import {
-  KeyboardAvoidingView,
   TouchableOpacity,
   ScrollView,
   StyleSheet,
@@ -43,7 +42,6 @@ class AutoComplete extends Component {
   renderSuggestions() {
     const { userInput } = this.state;
     const options = this.findInputs(userInput);
-    const comp = (a, b) => a.toLowerCase() === b.toLowerCase();
     const suggestions =
       options.length === 1 && userInput.search(options[0].codigo) >= 0
         ? []
@@ -104,8 +102,24 @@ class AutoComplete extends Component {
     const { userInput } = this.state;
 
     return (
-      <KeyboardAvoidingView>
-        <View style={{ width: "90%", alignSelf: "center" }}>
+      <View>
+        <View
+          style={{
+            borderRadius: 20,
+            borderColor: "rgb(200,200,200)",
+            borderWidth: 3
+          }}
+        >
+          <TextInput
+            placeholder={placeholder}
+            style={{ marginLeft: 10 }}
+            onChangeText={text => {
+              this.setState({ userInput: text });
+            }}
+            value={userInput}
+          />
+        </View>
+        {this.findInputs(userInput).length > 1 ? (
           <View
             style={{
               borderRadius: 20,
@@ -113,30 +127,14 @@ class AutoComplete extends Component {
               borderWidth: 3
             }}
           >
-            <TextInput
-              placeholder={placeholder}
-              style={{ marginLeft: 10 }}
-              onChangeText={text => {
-                this.setState({ userInput: text });
-              }}
-              value={userInput}
-            />
-          </View>
-          <View
-            style={{
-              borderColor: "red",
-              borderWidth: 2,
-              borderRadius: 5
-            }}
-          >
             <ScrollView
-              style={{ maxHeight: DEVICE_HEIGHT * 0.3, marginLeft: 10 }}
+              style={{ maxHeight: DEVICE_HEIGHT * 0.5, marginLeft: 10 }}
             >
               {this.renderSuggestions()}
             </ScrollView>
           </View>
-        </View>
-      </KeyboardAvoidingView>
+        ) : null}
+      </View>
     );
   }
 }
