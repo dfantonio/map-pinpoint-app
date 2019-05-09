@@ -4,7 +4,7 @@ export default StyleSheet.create({
   header: {
     justifyContent: "center",
     textAlign: "center",
-    fontSize: 40,
+    fontSize: 30,
     padding: 15
   },
   button: {

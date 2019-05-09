@@ -1,7 +1,6 @@
-// import Autocomplete from "react-native-autocomplete-input";
 import Autocomplete from "../../Components/AutoComplete/AutoComplete";
 import React, { Component } from "react";
-import { View, Text } from "react-native";
+import { View, Text, KeyboardAvoidingView } from "react-native";
 import { Button } from "native-base";
 import styles from "./HomeStyle";
 import Picker from "../../Components/Picker/Picker";
@@ -26,25 +25,37 @@ class Home extends Component {
     const { pickerList } = this.state;
 
     return (
-      <View>
-        <Text style={styles.header}>Imagine um título legal aqui</Text>
+      <View style={{ flex: 1, width: "90%", alignSelf: "center" }}>
+        <Text style={styles.header}>Localizador de armários</Text>
+        <View
+          style={{
+            borderRadius: 20,
+            borderColor: "rgb(200,200,200)",
+            borderWidth: 3
+          }}
+        >
+          <Picker
+            onValueChange={user => {
+              this.setState({ pickerUser: user });
+            }}
+            title={"Escolha a cidade"}
+            options={pickerList}
+          />
+        </View>
+        <View style={{ flex: 1 }}>
+          <Autocomplete
+            placeholder={"Digite o código do armário"}
+            options={pins[this.state.pickerUser]}
+          />
+        </View>
         <Button
-          // rounded
           style={styles.button}
           onPress={() => {
             this.props.navigation.navigate("Map");
           }}
         >
-          <Text style={{ color: "white" }}>Click Me!</Text>
+          <Text style={{ color: "white" }}>Ver todos os armários</Text>
         </Button>
-        <Picker
-          onValueChange={user => {
-            this.setState({ pickerUser: user });
-          }}
-          title={"Escolha a cidade"}
-          options={pickerList}
-        />
-        <Autocomplete />
       </View>
     );
   }
